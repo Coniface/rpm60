@@ -1,0 +1,19 @@
+{
+  "name": "60rpm",
+  "version": "1.0.0",
+  "description": "Requests simulation exercise",
+  "author": "Victor S",
+  "license": "MIT",
+  "scripts": {
+    "start": "node build/src/main.js",
+    "clean": "rimraf build",
+    "build": "tsc -p tsconfig.release.json",
+    "build:watch": "tsc -w -p tsconfig.release.json"
+  },
+  "devDependencies": {
+    "@types/node": "^16.10.3",
+    "prettier": "^2.4.1",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.4.3"
+  }
+}
